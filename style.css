@@ -412,18 +412,38 @@ form {
     background-color: #000;
     color: #fff;
   }
+
+  .contact-me,
+  .contact-me-content,
+  form {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
   .image-gallery .images .image {
     flex: 100%;
   }
+
   .sidebar {
     align-items: center;
   }
 
   .footer-top {
     flex-direction: column;
+  }
+
+  .resume-link {
+    width: 50%;
+  }
+
+  .prices {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .plan-card {
+    width: 100%;
   }
 
   .footer .info,
